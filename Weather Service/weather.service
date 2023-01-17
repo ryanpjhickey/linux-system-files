@@ -1,0 +1,10 @@
+[Unit]
+Description=Weather Service
+
+[Service]
+ExecStart=/usr/local/bin/weather_service
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
