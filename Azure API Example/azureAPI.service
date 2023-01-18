@@ -1,0 +1,10 @@
+[Unit]
+Description=AzureAPI
+
+[Service]
+ExecStart=/usr/local/bin/Azure_API_Service
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
